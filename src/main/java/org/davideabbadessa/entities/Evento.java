@@ -1,8 +1,6 @@
-package davideabbadessa.entities;
+package org.davideabbadessa.entities;
 
 import jakarta.persistence.*;
-import org.davideabbadessa.entities.Location;
-import org.davideabbadessa.entities.Partecipazione;
 
 import java.time.LocalDate;
 import java.util.List;

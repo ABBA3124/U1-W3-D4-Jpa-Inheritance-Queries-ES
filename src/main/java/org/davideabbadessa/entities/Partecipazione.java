@@ -1,6 +1,5 @@
 package org.davideabbadessa.entities;
 
-import davideabbadessa.entities.Evento;
 import jakarta.persistence.*;
 
 @Entity
@@ -16,7 +15,7 @@ public class Partecipazione {
 
     @ManyToOne
     @JoinColumn(name = "evento_id")
-    private davideabbadessa.entities.Evento evento;
+    private org.davideabbadessa.entities.Evento evento;
 
 
     @Enumerated(EnumType.STRING)

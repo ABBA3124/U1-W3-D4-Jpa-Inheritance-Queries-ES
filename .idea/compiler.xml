@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="U1-W3-D4-Jpa-Inheritance-Queries-ES" />
         <module name="U1-W3-D3-Jpa-Relationships-ES" />
       </profile>
     </annotationProcessing>
